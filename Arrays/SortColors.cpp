@@ -23,7 +23,7 @@ nums[i] is either 0, 1, or 2.
 Follow up: Could you come up with a one-pass algorithm using only constant extra space?
 */
 
-
+//The Basic code for this problem
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -59,3 +59,46 @@ public:
         
     }
 };
+
+
+
+//this problem solve with Dutch Natinal flag problem
+//preferred
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+void sortColors(vector<int>& nums) {
+    int low = 0, current = 0, high = nums.size() - 1;
+
+    while (current <= high) {
+        if (nums[current] == 0) {
+            // Swap current element with the element at low
+            swap(nums[current], nums[low]);
+            low++;
+            current++;
+        } else if (nums[current] == 2) {
+            // Swap current element with the element at high
+            swap(nums[current], nums[high]);
+            high--;
+        } else {
+            // If the element is 1, just move to the next
+            current++;
+        }
+    }
+}
+
+int main() {
+    vector<int> nums = {2, 0, 2, 1, 1, 0};
+    sortColors(nums);
+
+    cout << "Sorted colors: ";
+    for (int num : nums) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+
