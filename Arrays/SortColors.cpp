@@ -61,9 +61,9 @@ public:
 };
 
 
-
+//-------------------------------------------------------------------------------------------------------------------------------------------------
 //this problem solve with Dutch Natinal flag problem(using two pointers)
-//preferred
+//PREFERRED
 
 #include <iostream>
 #include <vector>
@@ -88,17 +88,34 @@ void sortColors(vector<int>& nums) {
         }
     }
 }
-
 int main() {
     vector<int> nums = {2, 0, 2, 1, 1, 0};
     sortColors(nums);
-
     cout << "Sorted colors: ";
     for (int num : nums) {
         cout << num << " ";
     }
     cout << endl;
-
     return 0;
 }
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+Explanation of the Code:
+Initialization:
 
+low is initialized to 0 (boundary for 0s).
+current is initialized to 0 (current index being processed).
+high is initialized to nums.size() - 1 (boundary for 2s).
+Loop Condition:
+
+The loop continues until current surpasses high.
+Handling Each Case:
+
+If nums[current] == 0, swap it with the element at low and increment both low and current.
+If nums[current] == 2, swap it with the element at high and decrement high (do not increment current immediately because the swapped element at current needs to be checked).
+If nums[current] == 1, simply increment current.
+Output:
+
+After processing, the nums array will be sorted in-place with 0s, 1s, and 2s grouped together in order.
+
+*/
