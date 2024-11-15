@@ -62,7 +62,7 @@ public:
 
 
 
-//this problem solve with Dutch Natinal flag problem
+//this problem solve with Dutch Natinal flag problem(using two pointers)
 //preferred
 
 #include <iostream>
