@@ -28,27 +28,32 @@ Input: code = [2,4,9,3], k = -2
 Output: [12,5,6,13]
 Explanation: The decrypted code is [3+9, 2+3, 4+2, 9+4]. Notice that the numbers wrap around again. If k is negative, the sum is of the previous numbers.
 
-*********************************/
-class Solution {
-public:
-    vector<int> decrypt(vector<int>& code, int k) {
+*/
+/**************************************************
+Best Solution(Sliding Window)
+***************************************************/
+#include <vector>
+#include <numeric> // For accumulate
+using namespace std;
+
+vector<int> decrypt(vector<int>& code, int k) {
     int n = code.size();
     vector<int> result(n, 0);
 
-    if (k == 0) return result;
+    if (k == 0) 
+        return result;
+
+    int start = k > 0 ? 1 : n + k; 
+    int end = k > 0 ? k : n - 1;
+
+    int windowSum = accumulate(code.begin() + start, code.begin() + end + 1, 0);
 
     for (int i = 0; i < n; ++i) {
-        int sum = 0;
-        if (k > 0) {
-            for (int j = 1; j <= -k; ++j)
-                sum += code[(i + j) % n];
-        } else {
-            for (int j = 1; j <= k; ++j)
-                sum += code[(i - j + n) % n];
-        }
-        result[i] = sum;
+        result[i] = windowSum;
+        windowSum -= code[(start++) % n];
+        windowSum += code[(++end) % n];
     }
 
     return result;
 }
-};
+
