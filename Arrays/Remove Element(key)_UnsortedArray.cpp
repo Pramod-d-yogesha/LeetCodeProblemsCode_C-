@@ -47,6 +47,16 @@ Constraints:
 0 <= val <= 100
 */
 
+/*
+Approach
+To achieve this, we use a two-pointer technique:
+
+One pointer (i) iterates through the array.
+Another pointer (j) keeps track of the position where the next valid element (not equal to val) should be placed.
+When nums[i] != val, assign nums[j] = nums[i] and increment j.
+At the end, j represents the count of elements that are not equal to val.
+
+*/
 
 #include <iostream>
 #include<vector>
