@@ -14,7 +14,7 @@ This repository contains my solutions to various LeetCode problems, organized by
 
 ### **Topics Covered**:
 - Each folder represents a specific topic (e.g., Arrays, Strings, Dynamic Programming, etc.).
-- Solutions are implemented in **C++** (or other languages if applicable).
+- Solutions are implemented in **C++**
 
 ---
 
@@ -27,7 +27,7 @@ This repository contains my solutions to various LeetCode problems, organized by
 ---
 
 ## **Technologies Used**
-- **Programming Languages**: C++, Python (if applicable)
+- **Programming Languages**: C++, 
 - **Tools**: Visual Studio Code, GitHub
 
 ---
