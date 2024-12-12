@@ -37,16 +37,15 @@ nums2.length == n
 Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 
 *******************************************************************************************************/
-
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) 
     {
         int i=0;
-        int maxindex=(m+n)-1;
+        int maxIndex=(m+n)-1;
         m--;
         n--;
-        for(i=(m+n)-1;i>=0,m>=0,n>=0;i--)
+        for(i=maxIndex;i>=0 && m>=0 && n>=0;i--)
         {
             if(nums1[m]<nums2[n])
             {
@@ -57,7 +56,7 @@ public:
                 nums1[i]=nums1[m--];
             }
         }
-        while(i>=0 &&n>=0)
+        while(i>=0 && n>=0)
         {
             nums1[i--]=nums2[n--];
         }
