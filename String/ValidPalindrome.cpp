@@ -26,27 +26,31 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 class Solution {
 public:
     bool isPalindrome(string s) {
-        if (s.empty()) return true;
-        for (int i = 0; i < s.length();) {
-            if (isupper(s[i])) {
-                s[i] = tolower(s[i]);  
-                i++; 
-            }
-            else if (!isalnum(s[i])) {
-                s.erase(i,1); 
-            }
-            else {
-                i++;  
-            }
+    int left = 0, right = s.length() - 1;
+        
+    while (left < right) {
+        
+        // Skip left if not alphanumeric
+        if (!isalnum(s[left])) {
+            left++;
         }
-        int i = 0, j = s.length() - 1;
-        while (i < j) {
-            if (s[i] != s[j]) {
-                return false;
-            }
-            i++;
-            j--;
+            
+        // Skip right if not alphanumeric
+        else if (!isalnum(s[right])) {
+            right--;
         }
-        return true;
+            
+        // Convert to lowercase and compare
+        else if (tolower(s[left]) != tolower(s[right])) {
+            return false;
+        }
+            
+        // Move both pointers
+        else {
+            left++;
+            right--;
+        }
     }
+    return true;
+}
 };
