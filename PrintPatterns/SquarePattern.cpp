@@ -7,7 +7,13 @@ Print the bellow pattern
 *  *
 ****
 
-
+Hint = use bellow conditions to print the specific line of star 
+                i==0
+              **********
+       j==0   *        *  i==4
+              *        *
+              **********
+                 j==4
 ***********************************************/
 
 
