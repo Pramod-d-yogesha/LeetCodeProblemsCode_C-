@@ -12,7 +12,7 @@ print the bellow pattern
 ****
 
 
-Hintb = use bellow conditions to print the specific line of star 
+Hint = use bellow conditions to print the specific line of star 
                 i==0
               **********
        j==0   *        *  i==4
