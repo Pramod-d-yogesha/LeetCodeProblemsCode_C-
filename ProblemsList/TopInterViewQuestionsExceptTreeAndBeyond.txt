@@ -1,14 +1,14 @@
 
-1. Two Sum [Solution]
-2. Valid Parentheses [Solution]
-3. Merge Two Sorted Lists [Solution]
+1. Two Sum [Solution]   -DONE
+2. Valid Parentheses [Solution]   -DONE
+3. Merge Two Sorted Lists [Solution]   -DONE
 4. Best Time to Buy and Sell Stock [Solution]
-5. Valid Palindrome [Solution]
-6. Valid Anagram
-7. Binary Search
-8. Linked List Cycle
-9. Single Number
-10. Reverse Linked List
+5. Valid Palindrome [Solution]   -DONE
+6. Valid Anagram   -DONE
+7. Binary Search   -DONE
+8. Linked List Cycle   -DONE
+9. Single Number   -DONE
+10. Reverse Linked List   -DONE
 11. Majority Element
 12. Missing Number
 13. Reverse String
