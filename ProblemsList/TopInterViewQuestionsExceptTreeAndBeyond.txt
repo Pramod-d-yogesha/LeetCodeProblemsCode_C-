@@ -1,21 +1,21 @@
 
-1. Two Sum [Solution]   -DONE
-2. Valid Parentheses [Solution]   -DONE
-3. Merge Two Sorted Lists [Solution]   -DONE
+1. Two Sum [Solution]                                   -DONE
+2. Valid Parentheses [Solution]                         -DONE
+3. Merge Two Sorted Lists [Solution]                    -DONE
 4. Best Time to Buy and Sell Stock [Solution]
-5. Valid Palindrome [Solution]   -DONE
-6. Valid Anagram   -DONE
-7. Binary Search   -DONE
-8. Linked List Cycle   -DONE
-9. Single Number   -DONE
-10. Reverse Linked List   -DONE
-11. Majority Element   -DONE
-12. Missing Number   -DONE
-13. Reverse String   -DONE
-14. Middle of the Linked List [Solution]   -DONE
-15. Maximum Subarray [Solution]   -DONE
-16. Climbing Stairs [Solution]   -DONE
-17. Product of Array Except Self [Solution]
+5. Valid Palindrome [Solution]                          -DONE
+6. Valid Anagram                                        -DONE
+7. Binary Search                                        -DONE
+8. Linked List Cycle                                    -DONE
+9. Single Number                                        -DONE
+10. Reverse Linked List                                 -DONE
+11. Majority Element                                    -DONE
+12. Missing Number                                      -DONE
+13. Reverse String                                      -DONE
+14. Middle of the Linked List [Solution]                -DONE
+15. Maximum Subarray [Solution]                         -DONE
+16. Climbing Stairs [Solution]                          -DONE
+17. Product of Array Except Self [Solution]             -DONE
 18. Best Time to Buy and Sell Stock II [Solution]
 19. House Robber [Solution]
 20. Number of 1 Bits
