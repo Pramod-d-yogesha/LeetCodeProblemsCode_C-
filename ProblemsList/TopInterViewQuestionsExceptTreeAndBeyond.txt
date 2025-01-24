@@ -19,7 +19,7 @@
 18. Best Time to Buy and Sell Stock II [Solution]
 19. House Robber [Solution]                             -DONE
 20. Number of 1 Bits                                    -DONE
-21. Min Stack [Solution]
+21. Min Stack [Solution]                                -DONE
 22. Contains Duplicate [Solution]
 23. Merge Intervals [Solution]
 24. Set Matrix Zeroes [Solution]
