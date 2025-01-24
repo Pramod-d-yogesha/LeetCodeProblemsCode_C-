@@ -17,8 +17,8 @@
 16. Climbing Stairs [Solution]                          -DONE
 17. Product of Array Except Self [Solution]             -DONE
 18. Best Time to Buy and Sell Stock II [Solution]
-19. House Robber [Solution]
-20. Number of 1 Bits
+19. House Robber [Solution]                             -DONE
+20. Number of 1 Bits                                    -DONE
 21. Min Stack [Solution]
 22. Contains Duplicate [Solution]
 23. Merge Intervals [Solution]
