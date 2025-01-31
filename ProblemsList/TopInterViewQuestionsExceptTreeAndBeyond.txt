@@ -21,8 +21,8 @@
 20. Number of 1 Bits                                    -DONE
 21. Min Stack [Solution]                                -DONE
 22. Contains Duplicate [Solution]                       -DONE
-23. Merge Intervals [Solution]
-24. Set Matrix Zeroes [Solution]
+23. Merge Intervals [Solution]                          -DONE
+24. Set Matrix Zeroes [Solution]                        -DONE
 25. Spiral Matrix [Solution]
 26. 3Sum [Solution]
 27. Container With Most Water [Solution]
