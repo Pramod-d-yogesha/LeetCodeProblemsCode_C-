@@ -24,8 +24,8 @@
 23. Merge Intervals [Solution]                          -DONE
 24. Set Matrix Zeroes [Solution]                        -DONE
 25. Spiral Matrix [Solution]
-26. 3Sum [Solution]
-27. Container With Most Water [Solution]
+26. 3Sum [Solution]                                     -DONE      
+27. Container With Most Water [Solution]                -DONE
 28. Group Anagrams [Solution]
 29. Implement Trie (Prefix Tree)
 30. Kth Largest Element in an Array
