@@ -29,8 +29,8 @@
 28. Group Anagrams [Solution]                           -DONE
 29. Implement Trie (Prefix Tree)
 30. Kth Largest Element in an Array                     -DONE
-31. Longest Palindromic Substring
-32. Longest Substring Without Repeating Characters [Solution]
+31. Longest Palindromic Substring                       -DONE
+32. Longest Substring Without Repeating Characters      -DONE
 33. Maximal Square [Solution]
 34. Maximum Product Subarray
 35. Minimum Window Substring [Solution]
