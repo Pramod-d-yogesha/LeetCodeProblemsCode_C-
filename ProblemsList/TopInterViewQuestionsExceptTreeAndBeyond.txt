@@ -36,9 +36,9 @@
 35. Minimum Window Substring [Solution]
 36. Number of Islands [Solution]
 37. Permutations [Solution]
-38. Remove Nth Node From End of List
+38. Remove Nth Node From End of List                    -DONE
 39. Rotate Image [Solution]
-40. Search a 2D Matrix
+40. Search a 2D Matrix                                  -DONE
 41. Search in Rotated Sorted Array
 42. Subsets [Solution]
 43. Top K Frequent Elements [Solution]
